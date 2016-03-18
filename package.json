@@ -1,0 +1,13 @@
+{
+  "name": "mocha-spec-reporter-line-omission-bug-demo",
+  "version": "0.0.1-SNAPSHOT",
+  "description": "Trying to isolate & reproducce a bug with Mocha's spec reporter that's driving me crazy",
+  "scripts": {
+    "test": "mocha --recursive --reporter=spec test/"
+  },
+  "author": "Jacob Quant <jacobq@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "2.4.5"
+  }
+}
